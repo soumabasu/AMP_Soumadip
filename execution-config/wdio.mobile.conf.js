@@ -110,7 +110,7 @@ exports.config = {
     // <string[]> (file/dir) require files before executing features
     require: [
 
-      // path.join(process.cwd(),'step-definitions', 'Given.js'),
+      path.join(process.cwd(),'step-definitions', 'Given.js'),
       path.join(process.cwd(),  'step-definitions', 'mobile', 'mobile-given.js'),
       path.join(process.cwd(),  'step-definitions', 'mobile', 'mobile-then.js'),
       path.join(process.cwd(),  'step-definitions', 'mobile', 'mobile-when.js')
