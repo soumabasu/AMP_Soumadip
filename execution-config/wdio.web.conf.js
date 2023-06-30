@@ -128,9 +128,12 @@ exports.config = {
     require: [
 
       path.join(process.cwd(),'step-definitions', 'Given.js'),
-      path.join(process.cwd(), 'node_modules', '@deloitte', 'web', 'step-definitions', 'web-given.js'),
-      path.join(process.cwd(), 'node_modules', '@deloitte', 'web', 'step-definitions', 'web-then.js'),
-      path.join(process.cwd(), 'node_modules', '@deloitte', 'web', 'step-definitions', 'web-when.js'),
+      path.join(process.cwd(),  'step-definitions', 'web', 'web-given.js'),
+      path.join(process.cwd(),  'step-definitions', 'web', 'web-then.js'),
+      path.join(process.cwd(),  'step-definitions', 'web', 'web-when.js'),
+      path.join(process.cwd(),  'step-definitions', 'mobile', 'mobile-given.js'),
+      path.join(process.cwd(),  'step-definitions', 'mobile', 'mobile-then.js'),
+      path.join(process.cwd(),  'step-definitions', 'mobile', 'mobile-when.js')
     ],
     // require:['./step-definitions/Given.js','./step-definitions/When.js','./step-definitions/Then.js'],
     // <boolean> show full backtrace for errors
