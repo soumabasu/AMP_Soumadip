@@ -58,7 +58,7 @@ module.exports = {
   "moreflightOption":"//span[@class='linkText pointer']",
   "airIndiaFilter": "(//p[contains(text(),'Air India')])[1]",
   "flightList": "//*[@class='fli-list  simpleow ']",
-  "pageBottom": "(//span[@class='linkText ctaLink'][normalize-space()='View Flight Details'])[5]",
+  "pageBottom": "(//span[@class='linkText ctaLink'][normalize-space()='View Flight Details'])[4]",
   "airlinesfilterName":"(//div)[102]",
   "airlinesName":'.boldFont.blackText.airlineName'
   

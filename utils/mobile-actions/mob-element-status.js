@@ -2,7 +2,7 @@ const { expect } = require('chai');
 const { use } = require('chai');
 const chaiAsPromised = require('chai-as-promised');
 const {logger} = require('@deloitte/web/logger/log4js');
-const { getElement } = require('@deloitte/web/utils/common-actions/find-element');
+const { getElement } = require('../../utils/common-actions/find-element');
 
 use(chaiAsPromised);
 module.exports = {
