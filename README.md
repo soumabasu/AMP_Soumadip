@@ -50,3 +50,7 @@ IOS_VERSION=16.4
 UDID=00008110-000C4CA8349A401E
 ## Provide the webdriver agent path here
 WEBDRIVERAGENT_RUNNER=/Users/<<username>> /WebDriverAgent/WebDriverAgent.xcodeproj
+
+
+## Android apk file details
+Playstore link of the apk file is https://play.google.com/store/apps/details?id=com.divinememorygames.pedometer
