@@ -56,9 +56,9 @@ ANDROID_DEVICE_NAME=Samsung Galaxy S21 Ultra 5G
 
 ANDROID_DEVICE_ID=R5CT3286WBK
 
-APP_PACKAGE= com.olacabs.customer
+APP_PACKAGE=##provide app package name
 
-APP_ACTIVITY= com.olacabs.customer.ui.SplashActivity
+APP_ACTIVITY= ##provide app activity name
 
 ## iOS Real device capabilities(Change this capabilities as per the current test device and application)
 IOS_DEVICE_NAME=iPhone 13
