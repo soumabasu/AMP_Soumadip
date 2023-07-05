@@ -50,7 +50,7 @@ PLATFORM_NAME=iOS
 ## Android Real device capabilities(Change this capabilities as per the current test device and application)
 ANDROID_VERSION=13
 
-ANDROID_APK_PATH=/Users/soumabasu/Desktop/pedometer.apk
+ANDROID_APK_PATH=//provide the apk file path here
 
 ANDROID_DEVICE_NAME=Samsung Galaxy S21 Ultra 5G
 
