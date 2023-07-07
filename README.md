@@ -20,7 +20,7 @@ SPEC_NAME=##Enter the path of the feature file to run the test
 
 RUN_LIGHT_HOUSE_TEST=false
 
-LOG_LEVEL=##Enter the log level details (e.g. info/error/debug)
+LOG_LEVEL=info ##Enter the log level details (e.g. info/error/debug)
 
 CHROME_DRIVER=latest
 
@@ -34,31 +34,31 @@ RUN_LIGHT_HOUSE_TEST=false
 
 LOG_FILE_DIR=testResults/logs
 
-BROWSER_NAME=##Enter the browser name(e.g chrome/firefox)
+BROWSER_NAME=chrome ##Enter the browser name(e.g chrome/firefox)
 
 EXECUTION_TYPE=##Add headless if headless execution is required
 
-DEVICE_NAME=##Enter the system name(e.g Macbook Pro 15)
+DEVICE_NAME=Macbook Pro 15 ##Enter the system name(e.g Macbook Pro 15)
 
-PLATFORM_NAME=##Enter the platform name (e.g Android/iOS)
+PLATFORM_NAME=iOS ##Enter the platform name (e.g Android/iOS)
 
-ANDROID_VERSION=##Enter the test device os version (e.g 13)
+ANDROID_VERSION=13 ##Enter the test device os version (e.g 13)
 
 ANDROID_APK_PATH=##Enter the apk file path
 
-ANDROID_DEVICE_NAME=##Enter the test device name (e.g Samsung G9)
+ANDROID_DEVICE_NAME=Samsung Galaxy S21 Ultra 5G ##Enter the test device name (e.g Samsung G9)
 
-ANDROID_DEVICE_ID=##Enter the test device id (e.g R5CT3286WBK)
+ANDROID_DEVICE_ID=R5CT3286WBK ##Enter the test device id (e.g R5CT3286WBK)
 
 APP_PACKAGE=##Enter the app package name
 
 APP_ACTIVITY=##Enter the app activity name
 
-IOS_DEVICE_NAME=##Enter the test device name (e.g iPhone 8)
+IOS_DEVICE_NAME=iPhone 13 ##Enter the test device name (e.g iPhone 8)
 
-IOS_VERSION=##Enter the test device os version (e.g iOS 16)
+IOS_VERSION=16.4 ##Enter the test device os version (e.g 16)
 
-UDID=##Enter the test device udid
+UDID=00008110-000C4CA8349A401E ##Enter the test device udid
 
 WEBDRIVERAGENT_RUNNER=##Enter the webdriver agent runner path(e.g. /Users/username/WebDriverAgent/WebDriverAgent.xcodeproj)  
 
