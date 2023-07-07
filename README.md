@@ -5,6 +5,7 @@
 •	Open the folder in Visual Studio Code
 
 •	Install all the npm packages listed in package.json using the below mentioned command
+
   npm i --force
 
 ## Environment Setup
@@ -36,7 +37,7 @@ LOG_FILE_DIR=testResults/logs
 
 BROWSER_NAME=chrome ##Enter the browser name(e.g chrome/firefox)
 
-EXECUTION_TYPE=##Add headless if headless execution is required
+EXECUTION_TYPE=
 
 DEVICE_NAME=Macbook Pro 15 ##Enter the system name(e.g Macbook Pro 15)
 
