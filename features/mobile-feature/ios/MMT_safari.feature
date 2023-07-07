@@ -7,7 +7,7 @@ Scenario: launch Make My trip in safari browser
 Given I launch the application in my mobile device
 When I click on "safari"
 And I click on "navigation_bar"
-##And I enter text "Make My Trip" in the mobile element "search_box"
+And I enter text "Make My Trip" in the mobile element "search_box"
 When I enter "websitename" in the web element "search_box"
 And I click on "search_result"
 And I click on "close_registration"
