@@ -35,7 +35,10 @@
   "dependencies": {
     "@cucumber/cucumber": "^8.11.1",
     "@deloitte/web": "^1.0.17",
+    "axios": "^1.4.0",
     "flat": "^5.0.2",
+    "lodash": "^4.17.21",
+    "nodemailer": "^6.9.3",
     "readdir": "^1.0.2",
     "wdio-appium-service": "^0.2.3",
     "wdio-cucumberjs-json-reporter": "^4.4.3",
