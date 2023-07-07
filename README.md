@@ -73,3 +73,10 @@ WEBDRIVERAGENT_RUNNER=/Users/username/WebDriverAgent/WebDriverAgent.xcodeproj
 
 ## Android apk file details
 Playstore link of the apk file is https://play.google.com/store/apps/details?id=com.divinememorygames.pedometer
+
+## API paths
+BASE_API_PATH=https://reqres.in/api
+
+SINGLE_USER=users/2
+
+CREATE_USER=users
