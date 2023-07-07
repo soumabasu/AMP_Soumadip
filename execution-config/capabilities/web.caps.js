@@ -8,8 +8,8 @@ module.exports = [{
     browserName: process.env.BROWSER_NAME, //change the browser name in .env file (example: firefox etc).
     'goog:chromeOptions': {
       args: [
-        process.env.EXECUTION_TYPE, // Run Chrome in headless mode
-        '--disable-gpu', // Disable GPU acceleration (recommended for headless mode)
+        process.env.EXECUTION_TYPE // Run Chrome in headless mode
+         // Disable GPU acceleration (recommended for headless mode)
       ]},
     'moz:firefoxOptions': {
       binary: '/Applications/Firefox.app/Contents/MacOS/firefox', // Provide the firefox application path
