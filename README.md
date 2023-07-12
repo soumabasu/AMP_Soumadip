@@ -37,7 +37,7 @@ LOG_FILE_DIR=testResults/logs
 
 BROWSER_NAME=chrome ##Enter the browser name(e.g chrome/firefox)
 
-EXECUTION_TYPE=
+EXECUTION_TYPE=--disable-gpu ##Add headless if non-headless mode execution required
 
 DEVICE_NAME=Macbook Pro 15 ##Enter the system name(e.g Macbook Pro 15)
 
