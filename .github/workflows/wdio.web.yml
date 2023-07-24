@@ -18,9 +18,11 @@ jobs:
       LOG_LEVEL: info
       BROWSER_NAME: chrome
     steps:
+      - name: Print working directory
+        run: pwd
       - name: Install Chromium
         run: sudo apt-get install chromium-browser
-      - name: Use Node.js
+      - name: Use Node.js 16.x
         uses: actions/setup-node@v1
         with:
           node-version: 16.x
