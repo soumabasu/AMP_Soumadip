@@ -67,5 +67,6 @@
     "wdio-geckodriver-service": "^4.1.0",
     "wdio-safaridriver-service": "^2.1.0",
     "wdio-wait-for": "^3.0.2"
+    
   }
 }
