@@ -10,6 +10,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      RUNNER: LOCAL
+      ENVIRONMENT: QA
+      SPEC_NAME: features/web-feature/Google.feature
+      RUN_LIGHT_HOUSE_TEST: false
+      LOG_LEVEL: info
+      BROWSER_NAME: chrome
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
