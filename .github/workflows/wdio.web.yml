@@ -17,7 +17,6 @@ jobs:
       RUN_LIGHT_HOUSE_TEST: false
       LOG_LEVEL: info
       BROWSER_NAME: chrome
-      EXECUTION_TYPE: --disable-gpu
     steps:
       - name: List directory contents
         run: ls -R
