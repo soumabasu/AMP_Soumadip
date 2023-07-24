@@ -29,6 +29,6 @@ jobs:
       - name: List directory contents
         run: ls -R
       - name: Install dependencies
-        run: npm install --force
+        run: npm install
       - name: Run web test
         run: npm run webTest
