@@ -25,6 +25,9 @@ jobs:
         with:
           node-version: 16.x
 
+      - name: Authenticate with GitHub Package Registry
+        run: echo "//npm.pkg.github.com/:_authToken=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
+
       - name: Install dependencies
         run: npm install --force
 
