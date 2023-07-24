@@ -9,6 +9,13 @@
     "mobileTest": "npx wdio run ./execution-config/wdio.mobile.conf.js",
     "wdio": "wdio run ./wdio.conf.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deloitte/NimbleAutom8.git"
+  },
+  "bin": {
+    "@deloitte/web": "./index.js"
+  },
   "keywords": [
     "Web",
     "Automation",
@@ -16,8 +23,18 @@
     "Automation",
     "NimbleAutom8"
   ],
+  "author": "Deloitte Studios Bengaluru",
+  "license": "ISC",
+  "publishConfig": {
+    "@deloitte:registry": "https://npm.pkg.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Deloitte/NimbleAutom8/issues"
+  },
+  "homepage": "https://github.com/Deloitte/NimbleAutom8#readme",
   "dependencies": {
     "@cucumber/cucumber": "^8.11.1",
+    "@deloitte/web": "^1.0.17",
     "axios": "^1.4.0",
     "flat": "^5.0.2",
     "lodash": "^4.17.21",
@@ -49,6 +66,8 @@
     "wdio-edgedriver-service": "^2.1.2",
     "wdio-geckodriver-service": "^4.1.0",
     "wdio-safaridriver-service": "^2.1.0",
-    "wdio-wait-for": "^3.0.2"   
+    "wdio-wait-for": "^3.0.2"
+    
   }
 }
+
