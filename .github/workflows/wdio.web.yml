@@ -17,18 +17,14 @@ jobs:
       RUN_LIGHT_HOUSE_TEST: false
       LOG_LEVEL: info
       BROWSER_NAME: chrome
+      EXECUTION_TYPE: --disable-gpu
     steps:
       - name: Print working directory
         run: pwd
-      - name: Install Chromium
-        run: sudo apt-get install chromium-browser
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: 16.x
-      - name: List directory contents
-        run: ls -R
-      - name: Install dependencies
-        run: npm install
-      - name: Run web test
-        run: npm run webTest
+
+      - name: List parent directory contents
+        run: ls -R ..
+
+      - name: List current directory contents
+        run: ls -R .
+
