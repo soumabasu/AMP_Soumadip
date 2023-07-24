@@ -19,6 +19,8 @@ jobs:
       BROWSER_NAME: chrome
       EXECUTION_TYPE: --disable-gpu
     steps:
+      - name: List directory contents
+        run: ls -R
       - name: Install Chromium
         run: sudo apt-get install chromium-browser
       - name: Use Node.js
