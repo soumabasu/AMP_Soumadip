@@ -115,7 +115,10 @@ exports.config = {
 
       path.join(process.cwd(),  'step-definitions', 'mobile', 'mobile-given.js'),
       path.join(process.cwd(),  'step-definitions', 'mobile', 'mobile-then.js'),
-      path.join(process.cwd(),  'step-definitions', 'mobile', 'mobile-when.js')
+      path.join(process.cwd(),  'step-definitions', 'mobile', 'mobile-when.js'),
+      path.join(process.cwd(),  'step-definitions', 'web', 'web-given.js'),
+      path.join(process.cwd(),  'step-definitions', 'web', 'web-then.js'),
+      path.join(process.cwd(),  'step-definitions', 'web', 'web-when.js')
     ],
     // require:['./step-definitions/Given.js','./step-definitions/When.js','./step-definitions/Then.js'],
     // <boolean> show full backtrace for errors

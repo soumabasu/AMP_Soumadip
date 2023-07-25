@@ -8,7 +8,6 @@ Given I launch the application in my mobile device
 When I click on "safari"
 And I click on "navigation_bar"
 And I enter text "Make My Trip" in the mobile element "search_box"
-When I enter "websitename" in the web element "search_box"
 And I click on "search_result"
 And I click on "close_registration"
 And I wait for "2" seconds
@@ -16,10 +15,10 @@ And I wait for "2" seconds
 Scenario: Select flights in Make My trip
 When I click on "flight"
 Then I click on "mob_fromCity"
-When I enter "from_city" in the web element "enterCity_name"
+When I enter text "bengaluru" in the mobile element "enterCity_name"
 And I click on "bengaluru"
 And I click on "mob_toCity"
-When I enter "to_city" in the web element "enterCity_name"
+When I enter text "hyderabad" in the mobile element "enterCity_name"
 And I click on "hyderabad"
 
 Scenario: Select dates and other details in Make My trip

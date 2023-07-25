@@ -39,6 +39,7 @@ module.exports = {
   "totalCartvalue": "//*[@id='sc-subtotal-amount-activecart']//*[contains(text(), '299.00')]",
 
   //MakeMyTrip locator list
+  "outside_frame": "//img[@alt='Make My Trip']",
   "fromCity": "//input[@id='fromCity']",
   "enterfromCity": "//input[@placeholder='From']",
   "selectfromCity": "//div[normalize-space()='BLR']",

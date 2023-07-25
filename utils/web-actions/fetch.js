@@ -96,7 +96,7 @@ MMTverifyAppliedFilter: async () => {
   try {
     const filterElements = await $$( "(//div)[102]");
     const flightElements = await $$('.boldFont.blackText.airlineName');
-    await browser.pause(2000);
+    await browser.pause(3000);
 
     for (let i = 0; i < filterElements.length; i++) {
       const filterText = await filterElements[i].getText();

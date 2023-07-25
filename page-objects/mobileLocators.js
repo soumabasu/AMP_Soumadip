@@ -27,7 +27,7 @@ module.exports = {
   enterCity_name: '//XCUIElementTypeTextField[@value="Enter City/Airport Name"]',
   bengaluru: '//XCUIElementTypeStaticText[@label="Bengaluru"][2]',
   mob_toCity: '~TO',
-  hyderabad: '(//XCUIElementTypeStaticText[@label="HYD"])[2]',
+  hyderabad: '//XCUIElementTypeStaticText[@name="HYD"]',
   deptDate: '~DEPARTURE DATE',
   traveller: '~TRAVELLER & CLASS',
   searchFlight: '~SEARCH FLIGHTS',

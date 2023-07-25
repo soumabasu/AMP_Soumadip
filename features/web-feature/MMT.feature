@@ -5,6 +5,9 @@ Feature: Make My Trip | Boiler Plate
 
   Scenario: Make my trip | Launch make my trip and select cities
   Given I launch the url "https://www.makemytrip.com/"
+  And I wait for "closeAdvertise" to display
+  And I close the advertisement by clicking "closeAdvertise"
+  Then I click "outside_frame"
   Then I click "fromCity"
   When I enter "from_city" in the web element "enterfromCity"
   And  I click "selectfromCity"
@@ -20,8 +23,9 @@ Feature: Make My Trip | Boiler Plate
   And I click "infantnum"
   And I click "buisnessClass"
   And I click "applyBTN"
-  And I wait for "2" seconds
+  And I wait for "3" seconds
   Then I click "searchBTN"
+  And I wait for "5" seconds
 
   Scenario: Make my trip | select flght with filter
   Given I wait for "advertisePopup" to display
